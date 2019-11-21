@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{
+	
+	width:100%;
+	height: auto;
+	margin: auto;
+	padding-left: 0px !important; padding-right: 0px !important;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.story-back{  background-image: url(../img/story-back.png); background-size: auto;}
+@media(max-width:768px){.story-back{background-size: 768px;}}
+@media(max-width:375px){.story-back{background-image: url(../img/story-back375.jpg); background-size: 375px;}}
+
+
+.story-name{margin-top: 545px;}
+@media(max-width:768px){.story-name img{width: 100%;} .story-name{margin-top: 215px; margin-bottom: 5px;}}
+@media(max-width:375px){.story-name img{width:50%;} .story-name{margin-top: 100px;}}
+
+.story-text{margin-top: 80px;}
+@media(max-width:768px){.story-text{margin-top: 20px;}}
+@media(max-width:375px){.story-text{margin-top: 0px; width: 225px; margin-left: 75px;}}
+
+.story-text p{font-size: 33px; font-family: 'Dancing Script', cursive;}
+@media(max-width:768px){.story-text p{font-size: 16px;}}
+@media(max-width:375px){.story-text p{font-size: 11px;}}
+
+
+#big{font-size: 55px; font-weight: bold;}
+@media(max-width:768px){#big{font-size: 30px; font-weight: bold;}}
+
+#map-image img{width: 100%;}
+
+.cup-nut, .map-nut{background-color: rgba(33,47,48,1.00); color: rgba(255,255,255,1.00); border: none; height: 65px; width: 280px; font-size: 25px; font-weight: bold; border-radius: 10px;  margin-top: 100px; transition: 0.3s; margin-bottom: 600px;}
+@media(max-width:768px){.cup-nut, .map-nut{width: 110px; height:30px; font-size: 15px; margin-bottom: 73px; margin-top: 20px;}}
+@media(max-width:375px){.cup-nut, .map-nut{width: 110px; height:30px; font-size: 15px; margin-bottom: 0px; margin-top: 10px; margin-left: 132px;}}
+
+
+.cup-nut:hover, .map-nut:hover{transform: scale(0.95);}
+
+
+.story-nv{margin-bottom: 100px;}
+
+@media(max-width:768px){.story-nv{margin-bottom: 35px;} .story-nv img{width:100%;}}
+@media(max-width:375px){.story-nv{margin-top: 20px; margin-bottom: 10px;} .story-nv img{width:100%;}}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

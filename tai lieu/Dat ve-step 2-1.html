@@ -1,0 +1,565 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Dat ve </title>
+<script src="http://code.jquery.com/jquery-1.7.1.js" type="text/javascript"> </script>
+	
+<link rel="stylesheet" href="src/header-style-red.css">
+<link rel="stylesheet" href="src/footer-style.css">
+<link rel="stylesheet" href="src/dat ghe-style.css">
+	
+<link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+	
+		
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+<div class="container-fluid">
+		<!--HEADER-->	
+		<div class="menu-back">
+		<div class="row"> 
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs12 logo"> 
+			<center> <img src="img/LOGO.png"/> </center> </div>
+		</div>
+		
+		
+				
+		<div class="row">
+		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"></div>
+        <div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 mainheader">
+			
+			 <header>
+			<div class="menu"> </div>
+				  
+				 <nav>
+					<center> <div class="line"></div> </center>  
+			<ul>
+           		<li><a href="#" class="home"> TRANG CHỦ </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> CÂU CHUYỆN CỦA ĐÓM </a></li>
+				<li>	<div class="line2"></div> </li>
+				<li><a href="#"> VỞ DIỄN </a> </li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> DIỄN VIÊN </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> ĐẶT VÉ </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> TIN TỨC </a></li>	
+				
+            </ul>
+			<center> <div class="line"></div> </center>
+			</nav>
+			<div class="clearfix"></div>
+			</header>
+			</div>
+			</div>
+			</div>
+		<!--END HEADER-->
+	
+	<!--SEAT MAP-->
+	<div class="map">
+	<div class="row">
+		<div class="col-lg-4 offset-lg-3 col-md-9 info"> 
+			<h6> VỞ KỊCH: TẤM CÁM  <br> SUẤT DIỄN: 17h30 Thứ 3 27 tháng 8 năm 2019 </h6>
+		</div> 
+		<div class="col-lg-2 col-md-3 info"> 
+		<button class="confirm"> <a href="#"> ĐẶT VÉ </a> </button>
+	</div>
+	</div>
+	<!--STAGE-->
+	<div class="row">
+		<div class="col-lg-6 offset-lg-3 col-md-10 offset-md-1"> 
+			<div class="sankhau"> <h2> SÂN KHẤU </h2> </div>
+		</div> 
+	</div>
+	<div class="row">
+		<div class="col-lg-1 offset-lg-1 col-md-1"> <div class="exit"> <p> LỐI RA </p> </div> </div>
+		<div class="col-lg-6 offset-lg-1 col-md-10">  
+			
+			<div id="chuthich" class="chuthich"> 
+				<div id="ghevip" class="chair"> </div> 
+				<h6> GHẾ VIP </h6> 
+			</div>
+			
+			<div class="chuthich"> 
+				<div id="ghethuong" class="chair"> </div> 
+				<h6> GHẾ THƯỜNG </h6> 
+			</div>
+			
+			<div class="chuthich"> 
+				<div id="ghedat" class="chair"> </div> 
+				<h6> GHẾ ĐÃ ĐẶT </h6> 
+			</div>
+			
+			<div class="chuthich"> 
+				<div id="ghedacbiet" class="chair"> </div> 
+				<h6> GHẾ ĐẶC BIỆT </h6> 
+			</div>
+			
+		</div> 
+		<div class="col-lg-1 offset-lg-1"> <div class="exit"> <p> LỐI RA </p> </div> </div>
+	</div>
+	</div>
+	<!--END STAGE-->
+	
+	<!--FIRST SEAT-->
+	<div class="row">
+		<!--SEAT A1-A2-->
+		<div class="col-lg-2 offset-lg-2 col-md-3"> 
+			<div class="specialseatleft"> <p> A2 </p> </div>
+			<div class="specialseatleft"> <p> A1 </p> </div>
+		</div> 
+		
+		<!--SEAT A3-A12-->
+		<div class="col-lg-4 col-md-6"> 
+			<div id="A3" class="specialseatcenter"> <p> A3 </p> </div> 
+			<div class="specialseatcenter"> <p> A4 </p>  </div> 
+			<div class="specialseatcenter"> <p> A5 </p> </div> 
+			<div class="specialseatcenter"> <p> A6 </p> </div> 
+			<div class="specialseatcenter"> <p> A7 </p> </div> 
+			<div class="specialseatcenter"> <p> A8 </p> </div> 
+			<div class="specialseatcenter"> <p> A9 </p> </div> 
+			<div class="specialseatcenter"> <p> A10 </p> </div> 
+			<div class="specialseatcenter"> <p> A11 </p> </div> 
+			<div class="specialseatcenter"> <p> A12 </p> </div> 
+		</div> 
+		
+		<!--SEAT A13-A14-->
+		<div class="col-lg-2 col-sm-3 bg-transparent"> 
+			<div id="A13" class="specialseatright"> <p> A13 </p> </div> 
+			<div class="specialseatright"> <p> A14 </p> </div>
+		</div> 
+		
+	</div>
+	<!--END FIRST SEAT-->
+	
+	<!--SECOND SEAT-->
+	<div class="row">
+		<!--SEAT B1-B3-->
+		<div class="col-lg-2 offset-lg-2 col-md-3 bg-transparent"> 
+			<div class="specialseatleft"> <p> B3 </p> </div> 
+			<div class="specialseatleft"> <p> B2 </p> </div>
+			<div class="specialseatleft"> <p> B1 </p> </div> 
+		</div> 
+		
+		<!--SEAT B4-B15-->
+		<div class="col-lg-4 col-md-6 bg-transparent"> 
+			<div id="B4" class="vipseatcenter"> <p> B4 </p> </div> 
+			<div class="vipseatcenter"> <p> B5 </p> </div>
+			<div class="vipseatcenter"> <p> B6 </p> </div> 
+			<div class="vipseatcenter"> <p> B7 </p> </div>
+			<div class="vipseatcenter"> <p> B8 </p> </div> 
+			<div class="vipseatcenter"> <p> B9 </p> </div>
+			<div class="vipseatcenter"> <p> B10 </p> </div> 
+			<div class="vipseatcenter"> <p> B11 </p> </div>
+			<div class="vipseatcenter"> <p> B12 </p> </div> 
+			<div class="vipseatcenter"> <p> B13 </p> </div>
+			<div class="vipseatcenter"> <p> B14 </p> </div>
+			<div class="vipseatcenter"> <p> B15 </p> </div> 
+		</div> 
+		
+		<!--SEAT B16-B18-->
+		<div class="col-lg-2 col-md-3 bg-transparent"> 
+			<div ID="B16" class="specialseatright"> <p> B16 </p> </div> 
+			<div class="specialseatright"> <p> B17 </p> </div>
+			<div class="specialseatright"> <p> B18 </p> </div> 
+		</div> 
+		
+	</div>
+	<!--END SECOND SEAT-->
+	
+	
+	
+	<!--OTHER SEATS-->
+	<div class="row">
+		<!--LEFT-->
+		
+		<div class="col-lg-1 offset-lg-1 bg-transparent"> </div>
+		<div class ="col-lg-2 col-md-3 bg-transparent"> 
+			<div class="left">
+			<div class="vipseatleft"> <p> C4 </p> </div> 
+			<div class="vipseatleft"> <p> C3 </p> </div>
+			<div class="vipseatleft"> <p> C2 </p> </div> 
+			<div class="vipseatleft"> <p> C1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> D4 </p> </div> 
+			<div class="vipseatleft"> <p> D3 </p> </div>
+			<div class="vipseatleft"> <p> D2 </p> </div> 
+			<div class="vipseatleft"> <p> D1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> E4 </p> </div> 
+			<div class="vipseatleft"> <p> E3 </p> </div>
+			<div class="vipseatleft"> <p> E2 </p> </div> 
+			<div class="vipseatleft"> <p> E1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> F4 </p> </div> 
+			<div class="vipseatleft"> <p> F3 </p> </div>
+			<div class="vipseatleft"> <p> F2 </p> </div> 
+			<div class="vipseatleft"> <p> F1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> G4 </p> </div> 
+			<div class="vipseatleft"> <p> G3 </p> </div>
+			<div class="vipseatleft"> <p> G2 </p> </div> 
+			<div class="vipseatleft"> <p> G1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> H4 </p> </div> 
+			<div class="vipseatleft"> <p> H3 </p> </div>
+			<div class="vipseatleft"> <p> H2 </p> </div> 
+			<div class="vipseatleft"> <p> H1 </p> </div> 
+			</div>
+			
+			<div class="left">
+			<div class="vipseatleft"> <p> I4 </p> </div> 
+			<div class="vipseatleft"> <p> I3 </p> </div>
+			<div class="vipseatleft"> <p> I2 </p> </div> 
+			<div class="vipseatleft"> <p> I1 </p> </div> 
+			</div>
+			
+			
+			
+		</div> 
+		
+		<!--CENTER-->
+		<div class="col-lg-4 col-md-6 bg-transparent"> 
+			<div class="center"> 
+			<div id="C5" class="vipseatcenter"> <p> C5 </p> </div> 
+			<div class="vipseatcenter"> <p> C6 </p>  </div> 
+			<div class="vipseatcenter"> <p> C7 </p> </div> 
+			<div class="vipseatcenter"> <p> C8 </p> </div> 
+			<div class="vipseatcenter"> <p> C9 </p> </div> 
+			<div class="vipseatcenter"> <p> C10 </p> </div> 
+			<div class="vipseatcenter"> <p> C11 </p> </div> 
+			<div class="vipseatcenter"> <p> C12 </p> </div> 
+			<div class="vipseatcenter"> <p> C13 </p> </div> 
+			<div class="vipseatcenter"> <p> C14 </p> </div> 
+			</div>
+			
+			<div class="center"> 
+			<div id="D5" class="vipseatcenter"> <p> D5 </p> </div> 
+			<div class="vipseatcenter"> <p> D6 </p>  </div> 
+			<div class="vipseatcenter"> <p> D7 </p> </div> 
+			<div class="vipseatcenter"> <p> D8 </p> </div> 
+			<div class="vipseatcenter"> <p> D9 </p> </div> 
+			<div class="vipseatcenter"> <p> D10 </p> </div> 
+			<div class="vipseatcenter"> <p> D11 </p> </div> 
+			<div class="vipseatcenter"> <p> D12 </p> </div> 
+			<div class="vipseatcenter"> <p> D13 </p> </div> 
+			<div class="vipseatcenter"> <p> D14 </p> </div> 
+			<div class="vipseatcenter"> <p> D15 </p> </div>
+			<div class="vipseatcenter"> <p> D16 </p> </div>
+			</div>
+			
+			<div class="center"> 
+			<div id="E5" class="vipseatcenter"> <p> E5 </p> </div> 
+			<div class="vipseatcenter"> <p> E6 </p>  </div> 
+			<div class="vipseatcenter"> <p> E7 </p> </div> 
+			<div class="vipseatcenter"> <p> E8 </p> </div> 
+			<div class="vipseatcenter"> <p> E9 </p> </div> 
+			<div class="vipseatcenter"> <p> E10 </p> </div> 
+			<div class="vipseatcenter"> <p> E11 </p> </div> 
+			<div class="vipseatcenter"> <p> E12 </p> </div> 
+			<div class="vipseatcenter"> <p> E13 </p> </div> 
+			<div class="vipseatcenter"> <p> E14 </p> </div> 
+			</div>
+			
+			<div class="center"> 
+			<div id="F5" class="vipseatcenter"> <p> F5 </p> </div> 
+			<div class="vipseatcenter"> <p> F6 </p>  </div> 
+			<div class="vipseatcenter"> <p> F7 </p> </div> 
+			<div class="vipseatcenter"> <p> F8 </p> </div> 
+			<div class="vipseatcenter"> <p> F9 </p> </div> 
+			<div class="vipseatcenter"> <p> F10 </p> </div> 
+			<div class="vipseatcenter"> <p> F11 </p> </div> 
+			<div class="vipseatcenter"> <p> F12 </p> </div> 
+			<div class="vipseatcenter"> <p> F13 </p> </div> 
+			<div class="vipseatcenter"> <p> F14 </p> </div> 
+			<div class="vipseatcenter"> <p> F15 </p> </div>
+			<div class="vipseatcenter"> <p> F16 </p> </div>
+			</div>
+			
+			<div class="center"> 
+			<div id="G5" class="vipseatcenter"> <p> G5 </p> </div> 
+			<div class="vipseatcenter"> <p> G6 </p>  </div> 
+			<div class="vipseatcenter"> <p> G7 </p> </div> 
+			<div class="vipseatcenter"> <p> G8 </p> </div> 
+			<div class="vipseatcenter"> <p> G9 </p> </div> 
+			<div class="vipseatcenter"> <p> G10 </p> </div> 
+			<div class="vipseatcenter"> <p> G11 </p> </div> 
+			<div class="vipseatcenter"> <p> G12 </p> </div> 
+			<div class="vipseatcenter"> <p> G13 </p> </div> 
+			<div class="vipseatcenter"> <p> G14 </p> </div> 
+			</div>
+			
+			<div class="center"> 
+			<div id="H5" class="vipseatcenter"> <p> H5 </p> </div> 
+			<div class="vipseatcenter"> <p> H6 </p>  </div> 
+			<div class="vipseatcenter"> <p> H7 </p> </div> 
+			<div class="vipseatcenter"> <p> H8 </p> </div> 
+			<div class="vipseatcenter"> <p> H9 </p> </div> 
+			<div class="vipseatcenter"> <p> H10 </p> </div> 
+			<div class="vipseatcenter"> <p> H11 </p> </div> 
+			<div class="vipseatcenter"> <p> H12 </p> </div> 
+			<div class="vipseatcenter"> <p> H13 </p> </div> 
+			<div class="vipseatcenter"> <p> H14 </p> </div> 
+			<div class="vipseatcenter"> <p> H15 </p> </div>
+			<div class="vipseatcenter"> <p> H16 </p> </div>
+			</div>
+			
+			<div class="center"> 
+			<div id="I5" class="vipseatcenter"> <p> I5 </p> </div> 
+			<div class="vipseatcenter"> <p> I6 </p>  </div> 
+			<div class="vipseatcenter"> <p> I7 </p> </div> 
+			<div class="vipseatcenter"> <p> I8 </p> </div> 
+			<div class="vipseatcenter"> <p> I9 </p> </div> 
+			<div class="vipseatcenter"> <p> I10 </p> </div> 
+			<div class="vipseatcenter"> <p> I11 </p> </div> 
+			<div class="vipseatcenter"> <p> I12 </p> </div> 
+			<div class="vipseatcenter"> <p> I13 </p> </div> 
+			<div class="vipseatcenter"> <p> I14 </p> </div> 
+			</div>	
+
+		</div> 
+		
+		<!--RIGHT-->
+		<div class="col-lg-2 col-md-3 bg-transparent"> 
+			<div class="right">
+			<div class="vipseatright"> <p> C16 </p> </div>
+			<div class="vipseatright"> <p> C17 </p> </div>
+			<div class="vipseatright"> <p> C18 </p> </div>
+			<div class="vipseatright"> <p> C19 </p> </div>
+			</div>
+			
+			<div class="right">
+			<div class="vipseatright"> <p> D16 </p> </div>
+			<div class="vipseatright"> <p> D17 </p> </div>
+			<div class="vipseatright"> <p> D18 </p> </div>
+			<div class="vipseatright"> <p> D19 </p> </div>
+			</div>
+			
+			<div class="right">	
+			<div class="vipseatright"> <p> E16 </p> </div>
+			<div class="vipseatright"> <p> E17 </p> </div>
+			<div class="vipseatright"> <p> E18 </p> </div>
+			<div class="vipseatright"> <p> E19 </p> </div>
+			</div>
+			
+			<div class="right">
+			<div class="vipseatright"> <p> F16 </p> </div>
+			<div class="vipseatright"> <p> F17 </p> </div>
+			<div class="vipseatright"> <p> F18 </p> </div>
+			<div class="vipseatright"> <p> F19 </p> </div>
+			</div>
+			
+			<div class="right">
+			<div class="vipseatright"> <p> G16 </p> </div>
+			<div class="vipseatright"> <p> G17 </p> </div>
+			<div class="vipseatright"> <p> G18 </p> </div>
+			<div class="vipseatright"> <p> G19 </p> </div>
+			</div>
+			
+			<div class="right">
+			<div class="vipseatright"> <p> H16 </p> </div>
+			<div class="vipseatright"> <p> H17 </p> </div>
+			<div class="vipseatright"> <p> H18 </p> </div>
+			<div class="vipseatright"> <p> H19 </p> </div>
+			</div>
+			
+			<div class="right">
+			<div class="vipseatright"> <p> I16 </p> </div>
+			<div class="vipseatright"> <p> I17 </p> </div>
+			<div class="vipseatright"> <p> I18 </p> </div>
+			<div class="vipseatright"> <p> I19 </p> </div>
+			</div>
+		</div> 
+	</div>
+	<!--END OTHER SEATS-->
+
+	
+	
+	<div class="row">
+	<div class="col-lg-2 offset-lg-3 bg-transparent"> <div class="exit2"> <p> LỐI VÀO </p> </div> </div>
+	<div class="col-lg-2 offset-lg-2 bg-transparent"> <div class="exit2"> <p> LỐI VÀO </p> </div> </div>
+
+	
+	</div>
+	
+	
+	
+	
+	
+	<!--END SEAT MAP-->
+	
+	
+	
+<!--FOOTER-->
+		<div class="footer">
+		<div class="row"> <div class="col-lg-12 col-md-12 footer-name"> <img src="img/footer-name.png"/> </div> </div>
+		<div class="row" id="footer1">
+	<div class="col-lg-1"></div>
+	<div class=" col-lg-2  col-md-12 diachi"> 
+		<h4> <span style="margin-left: -10px;"> LIÊN HỆ ĐÓM </span> </h4>
+		<div class="address">
+			<div class="add"> <img src="img/icon-09.png"/>  <p> 08 814 0910 - 09 456 41098 </p> </div>
+			<div class="add"> <img src="img/icon-10.png"/>  <p> 08 Lê Duẩn, phường Bến Nghé, <br> quận 1, TP.Hồ Chí Minh </p> </div>
+			<div class="add"> <img src="img/icon-08.png"/>  <p> sankhaudendomdom@gmail.com </p> </div>
+		</div>
+		<div class="social"> 
+			<div class="googleplus"> <a href="#"> <img src="img/social-03.png"> </a> </div>
+			<a href="#"> <img src="img/social-04.png"> </a>
+			<a href="#"> <img src="img/social-05.png"> </a>
+			<a href="#"> <img src="img/social-06.png"> </a>	
+		</div>	  	  
+	</div>
+	<div class=" col-lg-3 col-md-12 trailer"> 
+		<h4> <span style="margin-left: 20px;"> VỀ ĐÓM </span> </h4>
+			<div class="clip"> <iframe width="400" height="220" src="https://www.youtube.com/embed/6tvO2QdpgFA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+		</div>
+	
+	<div class=" col-lg-3 col-md-12 letter"> 
+		<h4> <span style="margin-left: 0px;"> NHẮN GỬI ĐẾN ĐÓM </span> </h4>
+			<img src="img/footer-07 (2).png"/>
+	</div>
+	<div class=" col-lg-2 col-md-12 comment"> 
+		<div class="inbox">
+			<form action="/action_page.php" class="form">
+ 			Tên của bạn:<br> <input class="form1" type="text" name="firstname"> <br>
+ 			Email:<br> <input class="form1" type="text" name="email"> <br>
+			Lời nhắn:<br> <input class="form2" type="text" name="comment"> <br>
+			<input class="submit" type="submit" value="GỬI">
+			</form> 	
+		</div>
+		</div>
+	<div class="col-lg-1"></div>
+	</div>
+	</div>
+		<!--END FOOTER-->
+		
+		
+	
+	
+</div>
+	
+	
+			<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+	
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu').click(function(){
+			$('.menu').toggleClass('home')
+			$('nav').toggleClass('home')
+		})
+	})
+</script>	
+	
+	
+	
+	
+	<!--script left-->
+		<script>
+			$(".seatleft").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+		<script>
+			$(".vipseatleft").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+		<script>
+			$(".specialseatleft").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+	<!--script center-->
+	
+		<script>
+			$(".seatcenter").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+		<script>
+			$(".vipseatcenter").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+		<script>
+			$(".specialseatcenter").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+	<!--script right-->
+	
+		<script>
+			$(".seatright").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+		<script>
+			$(".vipseatright").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+		
+		<script>
+			$(".specialseatright").click(function () {
+   				$(this).toggleClass("green");
+			});
+		</script>
+	
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{
+	width: 100%;
+	margin: auto;
+	padding-left: 0px !important; padding-right: 0px !important;
+	font-family: 'Roboto Condensed', sans-serif;}
+
+
+.kich-back{background-image:url(../img/phutang-back.png); background-size: cover;}
+
+
+.kich-image img{width: 100%;}  
+
+@media(max-width:768px){#border {width: 100%;}}
+@media(max-width:375px){#border { width: 100%;}}
+
+.content{ width: 950px; font-size: 28px; margin-top: -980px; text-align: left; color:rgba(145,19,28,1.00);}
+.content h3{font-size: 40px; font-weight: bold;}
+@media(max-width:768px){.content{margin-top: -390px; font-size: 16px; width:510px; line-height: normal;} .content h3{font-size: 25px;}}
+@media(max-width:375px){.content{margin-top: -190px; font-size: 7.5px; width:225px; line-height: normal;} .content h3{font-size: 12px; margin-bottom: 0px;}}
+
+.nut{margin-top: 50px; margin-bottom: 200px;} 
+@media(max-width:768px){.nut{margin-top: 130px; margin-bottom: 50px;} .nut img{width:184px; height:58px;}}
+@media(max-width:375px){.nut{margin-top: 50px;}}
+
+#trailer{ position: relative; margin-left: 490px;float: left; } #book{position: relative; margin-left: 1171px;}
+
+@media(max-width:768px){#trailer{margin-left: 100px;} #book{margin-left: 485px;}}
+@media(max-width:375px){#trailer{margin-left: 95px; margin-bottom: 15px;} #book{margin-left: 95px;}}
+
+#trailer h5, #book h5{position: absolute;  top:25px; left: 80px; font-family: 'Roboto Condensed', sans-serif; color:rgba(255,255,255,1.00);} 
+
+@media(max-width:768px){#trailer h5{top:18px; left: 50px;} #book h5{top:18px; left:56px;}}
+@media(max-width:375px){#book h5{top:90px; left:55px;}}
+
+.length h4{font-family: 'Roboto Condensed', sans-serif; color:rgba(145,19,28,1.00); font-weight: bold; font-size: 30px; text-align: center; margin-bottom: 100px;}
+@media(max-width:768px){.length h4{margin-bottom: 30px;} .dienvien{margin-bottom: -100px;}}
+@media(max-width:375px){.length h4{font-size: 25px; margin-bottom: 20px;}}
+ 
+.dienvien h3{font-family: 'Roboto Condensed', sans-serif; color:rgba(145,19,28,1.00); font-size: 35px; text-align: center; margin-bottom: 150px;}
+
+@media(max-width:768px){.dienvien h3{font-size: 30px;}}
+@media(max-width:375px){.dienvien h3{font-size: 26px;}}
+
+.dv{width: 424px; height:534px; background-color: rgba(183,115,110,1.00); float: left; margin-left: 72px; margin-bottom: 400px; }
+.dv img{width: 100%;}
+
+#ten1, #ten2, #ten3 {position: relative; margin-top: -50px;}
+
+#ten1 p, #ten2 p, #ten3 p{font-family: 'Roboto Condensed', sans-serif; color:rgba(255,255,255,1.00); font-size: 30px; position: absolute; top: 30px;}
+#ten1 p{left:100px;} #ten2 p, #ten3 p{left:110px;}
+
+
+@media(max-width:768px){
+	.dv{width:240px; height:300px; margin-left: 12px; margin-bottom: 100px;} 
+	#ten1 p {font-size: 22px; top:13px; left:42px;}
+	#ten2 p, #ten3 p{font-size: 22px; top:13px; left:47px;}
+	#ten1 img, #ten2 img, #ten3 img{width: 100%;}}
+@media(max-width:375px){.dv{margin-bottom: 50px; margin-left: 65px;} #ten1, #ten2, #ten3{margin-top: -30px;} #man3{margin-bottom: 100px;}}
+
+
+
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+
+

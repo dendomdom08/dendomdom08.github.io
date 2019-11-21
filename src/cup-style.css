@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{
+	width: 100%;
+	margin: auto;
+	padding-left: 0px !important; padding-right: 0px !important; }
+
+
+.cup-container{background-color: rgba(232,199,127,1.00);}
+
+.cup-back{  width:100%; background-color:rgba(227,173,86,1.00);  margin-bottom: 80px;}
+
+.cup-title{padding: 75px;} 
+
+@media(max-width:768px){.cup-title img{width: 100%;}}
+@media(max-width:375px){.cup-title img{width: 100%;}}
+
+.cup-layer{margin-bottom: 100px;}
+@media(max-width:375px){.cup-layer{margin-bottom: 0px;}}
+
+.award{width: 380px; float: left; margin-left: 110px;}
+@media(max-width:768px){.award{width: 240px; margin-left: 12px;} .award img{width: 100%;}}
+@media(max-width:375px){.award{width: 255px; margin-left: 60px;} .award img{width: 100%; margin-bottom: 50px;}}
+
+.modal-content img{width: 100%;}
+@media(max-width:375px){.modal-content img {margin-bottom: 0px; margin-top: 0px;}}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+@media(max-width:375px){.modal:before{height: 35%;}}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.award:hover{cursor: pointer;}
+
+
+
+

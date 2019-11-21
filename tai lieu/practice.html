@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Untitled Document</title>
+	
+<link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+<link rel="stylesheet" href="src/swiper-master/dist/css/swiper.min.css"/>	
+	
+<style>
+	
+	.container-fluid{margin: auto;}
+	
+	.logo{background:rgba(33,47,48,1.00); height: 150px;}
+	
+	header{position: relative;
+		max-width: 1920px;
+		margin: 20px auto;
+		padding: 10px;
+		background: rgba(33,47,48,1.00);
+		
+	}
+	
+	.menu-back{background-image: url(../img/menu-back.png); height: auto;}
+
+.menu{margin-top: 20px;}
+
+.logo{background: rgba(33,147,48,0.00);} .logo img{height:80px; margin-top: 10px; }
+
+
+.mainheader{background: rgba(133,47,48,0.00); width: 100%; height:120px;}
+
+	header{
+		position: relative;
+		max-width: 1920px;
+		background: rgba(33,47,48,0.00);
+		
+	}
+
+	
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%; margin-left: -15px; height: 100px;
+	background-image:  url(../img/menu-back.png);
+}
+
+nav {
+	width: 100%;
+    postion: fixed;
+    z-index: 100;
+	float: left;
+	background-color:rgba(313,47,48,1.00); 
+}
+	
+	.clearfix{clear:both;}
+	
+	ul{margin:0; padding:0; display: flex;}
+	
+	nav ul li{ list-style: none; text-decoration: none; margin-left: 55px;}
+	
+	nav ul li a{
+		display: block;
+		margin-top:10px; 
+		padding: 0px 25px; 
+		text-decoration: none; 
+		font: normal 13px/50px 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 18px;
+		color:rgba(240,212,190,1.00);
+		text-align: center;
+		transition: all .25s ease;
+	
+}
+	
+	nav ul li a:hover {background: rgba(240,212,190,1.00) ; color:rgba(175,58,48,1.00); border-radius: 10px; text-decoration: none; }
+	
+	@media (max-width: 1024px)
+	{
+		.menu{
+			display: block;
+			width:40px;
+			height:40px;
+			margin: 10px;
+			float: right;
+			cursor: pointer;
+			text-align: center;
+			font-size: 30px;
+			color:rgba(240,212,190,1.00);
+		}
+		
+		.menu:before{content:'\f0c9'; font-family: 'FontAwesome';line-height: 40px; }
+		
+		.menu.home:before{ content:'\f00d'; font-family: 'FontAwesome';line-height: 40px;}
+		
+		nav ul{ display: none; }
+		
+		nav.home{ display:block; width:100%;}
+		
+		nav.home ul{ display:block;}
+		
+		nav ul li a{text-align: center;}
+		
+		.line2{display: none;}
+		
+		.line{display: none;}
+		
+}
+
+
+
+.line{  
+	height:1px; 
+	margin-top: 10px;
+	background-color: rgba(240,212,190,1.00);
+}
+
+
+
+.line2{
+	width:1px; 
+	height:50px; 
+	margin-top: 10px;
+	background-color: rgba(240,212,190,1.00); 
+	float:left;
+}
+	
+
+</style>	
+	
+	
+</head>
+
+<body>
+	
+<div class="container-fluid">
+     <div class="row">
+		 
+	 <div class="col-lg-12 col-sm-12 logo"> <center>  <img src="img/LOGO-11.png"/> </center> </div>
+
+      	</div>
+		<!--END FIXED HEADER-->
+	
+	
+	
+				 <header>
+			<div class="menu"> </div>
+				  
+				 <nav>
+					<center> <div class="line"></div> </center>  
+			<ul>
+           		<li><a href="#" class="home"> TRANG CHỦ </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> CÂU CHUYỆN CỦA ĐÓM </a></li>
+				<li>	<div class="line2"></div> </li>
+				<li><a href="#"> VỞ DIỄN </a> </li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> DIỄN VIÊN </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> ĐẶT VÉ </a></li>
+				<li> <div class="line2"></div> </li>
+				<li><a href="#"> TIN TỨC </a></li>	
+				
+            </ul>
+			<center> <div class="line"></div> </center>
+			</nav>
+			<div class="clearfix"></div>
+			</header>
+			</div>
+
+
+	
+	
+	
+	
+
+	
+	
+
+	
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+	
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.menu').click(function(){
+			$('.menu').toggleClass('home')
+			$('nav').toggleClass('home')
+		})
+	})
+</script>
+
+	
+	
+
+
+	
+</body>
+</html>

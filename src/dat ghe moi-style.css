@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+body p{ text-align:center; font-size: 14px; margin-top: 3px;}
+
+.container-fluid{background-color:rgba(176,56,46,1.00); margin:auto; width:100%;
+padding-left: 0px !important; padding-right: 0px !important;}
+
+.info{width:100%; height:auto; background-color:rgba(240,212,190,1.00); margin-top: 100px; padding:25px; border-radius: 10px;}
+@media(max-width:768px){.info{padding: 15px;}}
+@media only screen and (max-width:480px){.info{margin-top: 50px;}}
+
+.info-name{float: left;}
+
+.info-name h6{font-family: 'Roboto', sans-serif; font-size: 23px; margin-left: 25px; line-height: 30px;}
+@media only screen and (max-width:480px){.info h6{margin-left: 0px; line-height: normal;}}
+
+.confirm{
+	font-family: 'Roboto', sans-serif; width:172px; height:56px; border: 1px solid rgba(0,0,0,1.00); border-radius: 14px; 
+	background-color: transparent;  margin-left: 150px; }
+@media(max-width:768px){.confirm{margin-left: 215px;}}
+@media only screen and (max-width:480px){.confirm{margin-left: 90px; margin-top: 10px;}}
+
+
+.confirm a{text-decoration: none; color:rgba(0,0,0,1.00);} .confirm{transition: 0.3s;}
+.confirm a:hover{text-decoration: none; color:rgba(0,0,0,1.00);} .confirm:hover{transform: scale(0.95);}
+
+.sankhau{background-color:rgba(212,190,121,1.00); height: 80px; margin-bottom: 50px; margin-top: 100px; }
+@media only screen and (max-width:480px){.sankhau{margin-top: 50px;}}
+
+.sankhau h2{text-align: center; padding: 20px; 	color:rgba(30,30,30,1.00);}
+
+.loira{padding-top: 100px;}
+@media only screen and (max-width:480px){.loira{padding-top: 0px;}}
+
+.exit{width:100%; height:80px; background-color: rgba(212,190,121,1.00); transform: rotate(90deg); padding:20px; } 
+#exitleft, #exitleft2{transform: rotate(270deg);}
+@media(max-width:768px){.exit{width:100%;}}
+
+.exit2{width:100%; height:80px; background-color:rgba(212,190,121,1.00); padding:20px; margin-top: 30px; margin-bottom: 50px; }
+@media only screen and (max-width:480px){.exit{visibility: hidden; margin-bottom: 0px; height: 0px; padding: 0px}}
+@media only screen and (max-width:480px){.exit2{visibility: hidden; margin-bottom: 0px; height: 0px; padding: 0px;}}
+
+
+.exit p, .exit2 p{font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
+
+.ghevip, .ghethuong{display:inline-block;}
+
+
+#A1, #C1, #E1, #G1, #I1, #K1, #M1, #O1, #Q1{margin-left: 105px;}
+@media(max-width:768px){#A1, #C1, #E1, #G1, #I1, #K1, #M1, #O1, #Q1{margin-left: 55px;}}
+@media only screen and (max-width:480px){#A1, #C1, #E1, #G1, #I1, #K1, #M1, #O1, #Q1{margin-left: 40px;}}
+
+
+#B1, #D1, #F1, #H1, #J1, #L1, #N1, #P1, #R1{margin-left: 65px}
+@media(max-width:768px){#B1, #D1, #F1, #H1, #J1, #L1, #N1, #P1, #R1{margin-left: 15px}}
+@media only screen and (max-width:480px){#B1, #D1, #F1, #H1, #J1, #L1, #N1, #P1, #R1{margin-left: 10px}}
+
+/*special seat*/
+
+.specialseat{width:30px; height:30px; background-color:rgba(57,181,74,1.00); float:left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+@media only screen and (max-width:480px){.specialseat{width: 27px; height: 27px; margin-left: 3px;}}
+
+/*end special seat*/
+
+
+/*vip seat*/
+
+.vipseat{width:30px; height:30px; background-color:  rgba(227,173,86,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+@media only screen and (max-width:480px){.vipseat{width: 27px; height: 27px; margin-left: 3px;}}
+
+/*end vip seat*/
+
+
+/*seat*/
+
+.seat{width:30px; height:30px; background-color: rgba(240,212,190,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+@media only screen and (max-width:480px){.seat{width:27px; height: 27px; margin-left: 3px;}}
+
+/*end seat*/
+
+
+
+
+#ghevip{width:30px; height:30px; background-color: rgba(227,173,86,1.00); }
+
+#ghethuong{width:30px; height:30px; background-color: rgba(240,212,190,1.00);}
+
+#ghedat {width:30px; height:30px; background-color:rgba(20,22,128,1.00);}
+
+#ghedacbiet {width:30px; height:30px; background-color:rgba(57,181,74,1.00);}
+
+@media only screen and (max-width:480px){#ghevip, #ghethuong, #ghedat, #ghedacbiet{width: 27px; height: 27px;}}
+
+
+
+.chair{ float:left; margin-right: 10px; } 
+
+.chuthich{float: left; margin-left: 100px; width:150px; margin-bottom: 50px; color: rgba(240,212,190,1.00);}
+@media(max-width:768px){.chuthich{float: left; margin-left: 10px; margin-bottom: 50px;}}
+@media only screen and (max-width:480px){.chuthich{margin-left: 25px;}}
+
+#chuthich{margin-left: 20px;}
+@media(max-width:768px){#chuthich{margin-left: 0px;}}
+@media only screen and (max-width:480px){#chuthich{margin-left: 25px;}}
+
+
+.seat.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+.vipseat.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+.specialseat.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+

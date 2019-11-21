@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{padding-left: 0px !important; padding-right: 0px !important;}
+
+
+
+.background{background-image: url(img/1x/cau_chuyen_cua_Dom1.png); height: 3968px;}
+@media(max-width:768px){.background{background-image: url(img/1x/cau_chuyen_cua_Dom2.png); height: 1587px;}}
+@media(max-width:375px){.background{background-image: url(img/1x/cau_chuyen_cua_Dom3.png); height: 775px;}}

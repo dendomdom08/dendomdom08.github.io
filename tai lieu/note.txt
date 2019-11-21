@@ -1,0 +1,138 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thanhtoan .paypal {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.thanhtoan .details {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.thanhtoan .cod, .thanhtoan .cd, .thanhtoan .credit, .thanhtoan .wallet {
+  background-color:rgba(154,0,2,1.00);
+}
+
+.cod .left, .cod .right, .cd .left, .cd .right, .credit .left, .credit .right, .wallet .left, .wallet .right {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+.cod .left, .cd .left, .credit .left, .wallet .left {
+  float: left;
+  margin-left: 50px;
+}
+
+
+.cod .left input[type=radio], .cd .left input[type=radio], .credit .left input[type=radio], .wallet .left input[type=radio] {
+  visibility: visible; 
+}
+
+
+.cod .left label, .cd .left label, .credit .left label, .wallet .left label{ 
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color:rgba(0,0,0,1.00);
+  margin-left: 30px; 
+  margin-top: 20px;
+}
+
+
+.cod .left .radio, .cd .left .radio, .credit .left .radio, .wallet .left .radio {
+  position: absolute;
+  border: 2px solid rgba(0,0,0,1.00);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-top: 0px;
+  -webkit-transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+
+
+
+.cod .left .radio::before, .cd .left .radio::before, .credit .left .radio::before .wallet .left .radio::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  top: 5px;
+  left: 5px;
+  width: 9px;
+  height: 9px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+
+.cd.right, .credit .right {
+  float: right;
+  margin-right: 10px;
+}
+
+.cd .right img, .credit .right img {  margin-left: 10px; }
+
+.wallet .right img{ width: 50px;
+  height: 50px;
+  margin-left: 10px;}
+
+
+input[type=radio]:checked ~ .radio {
+  border: 2px solid rgba(0,0,0,1.00);
+  background-color:rgba(172,56,46,1.00);
+}
+
+input[type=radio]:checked ~ .radio::before {
+  background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

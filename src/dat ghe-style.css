@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+body p{ text-align:center; font-size: 14px; margin-top: 3px;}
+
+.container-fluid{background-color:rgba(176,56,46,1.00); margin:auto; width:100%;
+padding-left: 0px !important; padding-right: 0px !important;}
+
+
+.info{width:920px; height:113px; background-color: rgba(212,190,121,1.00); margin-top: 100px; padding:28px;}
+
+.info h6{font-family: 'Roboto', sans-serif; font-size: 23px; margin-left: 25px; line-height: 30px;}
+
+.confirm{
+	font-family: 'Roboto', sans-serif; width:172px; height:56px; border: 1px solid rgba(0,0,0,1.00); border-radius: 14px; 
+	background-color:rgba(212,190,121,1.00);  margin-left: 60px;}
+
+
+
+.confirm a{text-decoration: none; color:rgba(0,0,0,1.00);} .confirm{transition: 0.3s;}
+.confirm a:hover{text-decoration: none; color:rgba(0,0,0,1.00);} .confirm:hover{transform: scale(0.95);}
+
+.sankhau{background-color:rgba(120,120,120,1.00); width: 967px; height: 80px; margin-left: -15px;  margin-bottom: 50px; margin-top: 100px; }
+
+
+.sankhau h2{text-align: center; padding: 20px; color:rgba(85,85,85,1.00);}
+
+.exit{width:200px; height:80px; border: 1px solid rgba(212,190,121,1.00); transform: rotate(90deg); padding:20px; }
+.exit2{width:200px; height:80px; border: 1px solid rgba(212,190,121,1.00); padding:20px; margin-top: 30px; margin-bottom: 100px; }
+
+.exit p, .exit2 p{font-family: 'Roboto', sans-serif; font-size: 20px; text-align: center;}
+
+
+
+
+/*special seat*/
+
+.specialseatleft{width:30px; height:30px; background-color:rgba(57,181,74,1.00); float:right; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.specialseatcenter{width:30px; height:30px; background-color:rgba(57,181,74,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.specialseatright{width:30px; height:30px; background-color:rgba(57,181,74,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer; }
+/*end special seat*/
+
+
+/*vip seat*/
+
+.vipseatleft{width:30px; height:30px; background-color:  rgba(227,173,86,1.00); float:right; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.vipseatcenter{width:30px; height:30px; background-color:  rgba(227,173,86,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.vipseatright{width:30px; height:30px; background-color: rgba(227,173,86,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+/*end vip seat*/
+
+
+/*seat*/
+
+.seatleft{width:30px; height:30px; background-color: rgba(240,212,190,1.00); float:right; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.seatcenter{width:30px; height:30px; background-color: rgba(240,212,190,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+.seatright{width:30px; height:30px; background-color: rgba(240,212,190,1.00); float: left; margin-left: 10px; margin-bottom: 10px; cursor: pointer;}
+
+/*end seat*/
+
+
+
+
+
+
+
+#A13{margin-left: 0px;} #B16{margin-left: 0px;}
+
+#A3{margin-left: 107px;} 
+
+#B4{margin-left: 67px;} 
+
+#C5{margin-left: 107px;} #E5{margin-left: 107px;} #G5{margin-left: 107px;}  
+	
+#I5{margin-left: 107px;} #K5{margin-left: 107px;} #M5{margin-left: 107px;}
+	
+#O5{margin-left: 107px;} #Q5{margin-left: 107px;}
+
+
+#D5 {margin-left: 67px;} #F5 {margin-left: 67px;} #H5 {margin-left: 67px;}
+
+#J5 {margin-left: 67px;} #L5 {margin-left: 67px;} #N5 {margin-left: 67px;}
+	
+#P5 {margin-left: 67px;} #R5 {margin-left: 67px;}
+
+.center{display: inline-block; margin-bottom: -6px;}
+
+.right{display: inline-block; margin-bottom: -6px; margin-left: -10px;}
+
+.left{padding-left: 127px; display: inline-block; margin-bottom: -6px;} 
+
+
+#ghevip{width:30px; height:30px; background-color: rgba(227,173,86,1.00);}
+
+#ghethuong{width:30px; height:30px; background-color: rgba(240,212,190,1.00);}
+
+#ghedat {width:30px; height:30px; background-color:rgba(33,47,48,1.00);}
+
+#ghedacbiet {width:30px; height:30px; background-color:rgba(57,181,74,1.00);}
+
+.chair{ float:left; margin-right: 10px; } 
+
+.chuthich{float: left; margin-left: 100px; width:150px; margin-bottom: 50px;}
+
+
+#chuthich{margin-left: 10px;}
+
+
+.seatleft.tick, .vipseatleft.tick, .specialseatleft.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+.seatcenter.tick, .vipseatcenter.tick, .specialseatcenter.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+.seatright.tick, .vipseatright.tick, .specialseatright.tick { background-color:rgba(33,47,48,1.00); color:rgba(255,255,255,1.00); }
+
+
+
+
+

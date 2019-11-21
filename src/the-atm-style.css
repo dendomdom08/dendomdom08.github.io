@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container-fluid{
+	width: 100%;
+	margin: auto;
+	background-color:rgba(172,56,46,1.00);
+	padding-left: 0px !important; padding-right: 0px !important;}
+
+
+h3{font-family: 'Roboto', sans-serif;}
+
+.container {
+  background-color:rgba(243,220,192,1.00);
+  box-shadow: 10px 6px 5px rgba(0,0,0,0.50);
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 70px;
+  padding-left: 10px; padding-right: 10px;
+}
+
+.name-info {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 2px solid  rgba(153,134,117,1.00);
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+@media(max-width:375px){
+	.name-info{margin-left: 10px; width: 95%;}
+	label{margin-left: 10px;}
+	h3{margin-left: 10px;}
+}
+
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.nut{ width: 480px; height:70px; background: rgba(212,178,121,1.00); 
+		border: none; border-radius: 20px;  margin: auto;
+	font-family: 'Roboto', sans-serif; transition: 0.3s;} 
+
+.nut:hover{ box-shadow: 3px 3px 5px  rgba(0,0,0,1.00); }
+
+@media (max-width:1920px){ .nut{ margin-bottom: 50px; font-size: 30px;}}
+@media (max-width:768px){ .nut{ margin-bottom: 50px; font-size: 25px;}}
+@media (max-width:375px){ .nut{ width: 300px; margin-bottom: 50px; font-size: 20px;}}
+
+

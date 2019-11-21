@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untitled Document</title>
+
+<link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+  background: rgba(172,56,46,1.00);
+}
+
+.container {
+  background-color:rgba(243,220,192,1.00);
+  box-shadow: 10px 6px 5px rgba(0,0,0,0.50);
+  border-radius: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.button {
+  background-color:rgba(212,178,121,1.00);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+  color:rgba(0,0,0,1.00);
+  
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+}
+</style>
+</head>
+
+<body>
+	
+<div class="container-fluid">
+
+<div class="row">
+  <div class="col-lg-6 container">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3> Thông tin khán giả </h3>
+            <label for="fname"><i class="fa fa-user"></i> Họ và tên </label>
+            <input type="text" id="fname" name="firstname" placeholder="Bùi Hải Phụng">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="haiphung@gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Địa chỉ </label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+ 
+            <div class="row">
+              <div class="col-lg-6">
+                <label for="state"> Quận </label>
+                <input type="text" id="state" name="state" placeholder="NY">
+				<select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+              </div>
+				
+              <div class="col-lg-6">
+                <label for="zip"> Thành phố </label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <h3> Thẻ thanh toán </h3>
+            <label for="cname"> Tên chủ thẻ </label>
+            <input type="text" id="cname" name="cardname" placeholder="Bui Hai Phung">
+            <label for="ccnum"> Số thẻ </label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+			              <div class="row">
+              <div class="col-lg-6">
+                <label for="expyear"> Thời gian hiệu lực </label>
+				<input type="text" id="expmonth" name="expmonth" placeholder="MM">
+              </div>
+              <div class="col-lg-6">
+                         <label for="expmonth"> <span style="opacity:0"> Exp Month </span> </label>
+
+				<input type="text" id="expyear" name="expyear" placeholder="YYYY">
+              </div>
+            </div> <label for="cvv">CVV</label>  
+                <input type="text" id="cvv" name="cvv" placeholder="237">
+
+          </div>
+          
+        </div>
+        <button type="button" class="button"> 
+			<i class="fa fa-lock" aria-hidden="true"></i> XÁC NHẬN VÀ THANH TOÁN 
+		</button>
+
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
